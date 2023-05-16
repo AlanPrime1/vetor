@@ -1,0 +1,28 @@
+Algoritmo "maioremenor"
+
+Var
+
+numero: vetor[1..2] de inteiro
+i: inteiro
+
+Inicio
+
+para i de 1 ate 2 faca
+escreval("Digite o numero ", i, ":")
+leia(numero[i])
+
+fimpara
+
+se numero[1] > numero[2] entao
+escreval("Maior número é: ", numero[1] )
+senao
+escreval("Maior numero é:", numero[2])
+fimse
+
+se numero[1] < numero[2] entao
+escreval("O menor numero é: ", numero[1])
+senao
+escreval("O menor numero é: ", numero[2])
+fimse
+
+Fimalgoritmo
