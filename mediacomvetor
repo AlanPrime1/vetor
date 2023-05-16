@@ -1,0 +1,30 @@
+Algoritmo "mediacomvetor"
+
+Var
+
+numero:vetor[1..2] de inteiro
+soma: inteiro
+media, produto: real
+i: inteiro
+
+
+Inicio
+
+para i de 1 ate 2 faca
+escreval("Digite o número ", i,":")
+leia(numero[i])
+
+soma<- numero[i] + soma
+
+
+fimpara
+
+media<- soma / i
+produto <- numero[1] * numero[2]
+
+
+escreval("A média das notas é: ", media)
+escreval("O produto das notas é: ", produto)
+
+
+Fimalgoritmo
